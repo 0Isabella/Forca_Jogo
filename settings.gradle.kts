@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Applicationaaaaaaaaaaaa"
+rootProject.name = "Forca"
 include(":app")
  
