@@ -1,4 +1,4 @@
-package com.example.myapplicationaaaaaaaaaaaa.ui.theme
+package com.example.forca.ui.theme
 
 import android.app.Activity
 import android.os.Build
