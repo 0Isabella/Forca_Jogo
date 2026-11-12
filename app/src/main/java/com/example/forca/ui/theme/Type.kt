@@ -1,4 +1,4 @@
-package com.example.myapplicationaaaaaaaaaaaa.ui.theme
+package com.example.forca.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplicationaaaaaaaaaaaa"
+    namespace = "com.example.forca"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.myapplicationaaaaaaaaaaaa"
+        applicationId = "com.example.forca"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.myapplicationaaaaaaaaaaaa
+package com.example.forca
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,14 +11,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.myapplicationaaaaaaaaaaaa.ui.theme.MyApplicationaaaaaaaaaaaaTheme
+import com.example.forca.ui.theme.ForcaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MyApplicationaaaaaaaaaaaaTheme {
+            ForcaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    MyApplicationaaaaaaaaaaaaTheme {
+    ForcaTheme {
         Greeting("Android")
     }
 }
